@@ -1,0 +1,145 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(32, 2, 42);
+    text-align:center;
+    margin-top:20vh;
+    
+}
+
+h1{
+    color: whitesmoke;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+ @media (max-width: 767px){
+    .display{
+        margin-right:0;
+    }
+
+    .editInput{
+        max-width:400px;
+    }
+
+
+    input[type=text]{
+        max-width:400px;
+    }
+    
+    .flex{
+        display:inline;
+    }
+    
+
+}
+
+input[type=text]{
+    border: 2px solid aliceblue;
+    width:500px;
+    height:px;
+    padding:10px;
+    margin-bottom:15px;
+    margin-top:10px;
+    background-color:lavender;
+    border-radius:5px;
+}
+
+.save{
+    border: 2px solid rgb(154, 4, 196);
+    width:80px;
+    height:40px;
+    padding:10px;
+    background-color:rgb(154, 4, 196);
+    cursor:pointer;
+    color:whitesmoke;
+    border-radius:5px;
+}
+
+.editmain{
+    border: 2px solid rgb(186, 16, 209);
+    width:80px;
+    height:40px;
+    padding:10px;
+    cursor:pointer;
+    background-color:rgb(186, 16, 209);
+    margin-left:5px;
+    border-radius:5px;
+    color:whitesmoke;
+}
+
+.edit{
+    border: 2px solid rgb(186, 16, 209);
+    width:80px;
+    height:40px;
+    padding:10px;
+    background-color:rgb(186, 16, 209);
+    cursor:pointer;
+    margin-left:5px;
+    color:whitesmoke;
+    border-radius:5px;
+
+}
+
+
+.flex{
+    display:flex;
+    justify-content:center;
+ 
+}
+
+
+.del{
+    border: 2px solid rgb(186, 16, 209);
+    width:80px;
+    height:40px;
+    padding:10px;
+    cursor:pointer;
+    background-color:rgb(186, 16, 209);
+    margin-top:10px;
+    border-radius:5px;
+    color:whitesmoke;
+}
+
+.task{
+    
+    display:inline-block;
+    overflow:hidden;
+    border-radius:5px;
+    overflow:hidden;
+    color:whitesmoke;
+    padding-top:10px;
+}
+
+.display{
+    display:flex;
+    width:400px;
+    border:3px solid white;
+    height:40px;
+    border-radius:5px;
+    margin-right: 5px;
+    margin-top:10px;
+    padding-right:15px;
+    
+}
+
+.checkbox{
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
